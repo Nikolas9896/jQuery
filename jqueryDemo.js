@@ -20,4 +20,4 @@ $(".highlight").css("color", "green");
 $(".third").css("border", "2px solid orange");
 $("#third").css("border", "2px solid orange");
 $("#third").css("color", "lightgray");
-$("div:first").css("color", "steelblue");
+$("div:first-of-type").css("color", "steelblue");
