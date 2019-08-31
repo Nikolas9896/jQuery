@@ -4,9 +4,6 @@ body {
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.fa-plus {
-    float: right;
-}
 h1 {
     background: #2980B9;
     color: white;
@@ -41,6 +38,7 @@ input {
     width: 100%;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
 
 }
 input:focus {
@@ -75,4 +73,8 @@ li:hover span{
 .completed {
     color: rgb(128, 128, 128);
     text-decoration: line-through;
+}
+
+.fa-plus {
+    float: right;
 }
