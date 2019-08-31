@@ -20,10 +20,28 @@ ul {
 
 li {
     background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
 }
 li:nth-child(2n)
 {
     background: #f7f7f7;
+}
+
+input {
+    background: #f7f7f7;
+    color: #2980B9;
+    font-size: 18px;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+
+}
+input:focus {
+    background: white;
+    border: 3px solid #2980B9;
+    outline: none;
 }
 
 #container {
